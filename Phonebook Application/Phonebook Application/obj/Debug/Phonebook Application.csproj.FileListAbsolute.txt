@@ -1,0 +1,10 @@
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\bin\Debug\Phonebook Application.exe
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\bin\Debug\Phonebook Application.pdb
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csprojAssemblyReference.cache
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.Properties.Resources.resources
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csproj.GenerateResource.cache
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.exe
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.pdb
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.AddDataForm.resources
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.MainForm.resources
+C:\Users\root\source\repos\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.SearchForm.resources
