@@ -106,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

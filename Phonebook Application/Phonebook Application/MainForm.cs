@@ -40,5 +40,15 @@ namespace Phonebook_Application
                 toolStripButton2_Click(sender, e);
             }
         }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
