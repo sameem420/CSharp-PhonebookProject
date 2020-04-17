@@ -38,8 +38,8 @@ namespace Phonebook_Application
         private void btnSave_Click(object sender, EventArgs e)
         {
             string fn = AppDomain.CurrentDomain.BaseDirectory;
-            string path = fn + "ID_" + this.textBox1.Text + ".txt";
-            File.WriteAllText(path,textBox1.Text + "\t" + textBox2.Text + "\t" + textBox3.Text + "\t" + textBox4.Text + "\t" + textBox5.Text);
+            string path = fn + "phonebook_data.txt";
+            File.AppendAllText(path, textBox1.Text + "\t" + textBox2.Text + "\t" + textBox3.Text + "\t" + textBox4.Text + "\t" + textBox5.Text + "\r\n");
             MessageBox.Show("Contact Added Successfully.", "Phonebook", MessageBoxButtons.OK, MessageBoxIcon.Information);
             btnSave.Enabled = false;
             btnNewData.Enabled = true;
