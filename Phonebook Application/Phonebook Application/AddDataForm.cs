@@ -39,7 +39,8 @@ namespace Phonebook_Application
         {
             string fn = AppDomain.CurrentDomain.BaseDirectory;
             string path = fn + "phonebook_data.txt";
-            File.AppendAllText(path, textBox1.Text + "\t" + textBox2.Text + "\t" + textBox3.Text + "\t" + textBox4.Text + "\t" + textBox5.Text + "\r\n");
+            string record = textBox1.Text + "\t" + textBox2.Text + "\t" + textBox3.Text + "\t" + textBox4.Text + "\t" + textBox5.Text + "\r\n";
+            File.AppendAllText(path, record);
             MessageBox.Show("Contact Added Successfully.", "Phonebook", MessageBoxButtons.OK, MessageBoxIcon.Information);
             btnSave.Enabled = false;
             btnNewData.Enabled = true;
