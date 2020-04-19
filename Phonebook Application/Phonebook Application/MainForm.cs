@@ -17,7 +17,7 @@ namespace Phonebook_Application
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            AddDataForm adform = new AddDataForm();
+            AddRecordForm adform = new AddRecordForm();
             adform.MdiParent = this;
             adform.Show();
         }
@@ -49,6 +49,13 @@ namespace Phonebook_Application
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            ViewRecordForm vform = new ViewRecordForm();
+            vform.Show();
+
         }
     }
 }

@@ -10,9 +10,9 @@ using System.IO;
 
 namespace Phonebook_Application
 {
-    public partial class AddDataForm : Form
+    public partial class AddRecordForm : Form
     {
-        public AddDataForm()
+        public AddRecordForm()
         {
             InitializeComponent();
         }

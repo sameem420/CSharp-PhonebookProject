@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddDataForm.cs">
+    <Compile Include="AddRecordForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddDataForm.Designer.cs">
-      <DependentUpon>AddDataForm.cs</DependentUpon>
+    <Compile Include="AddRecordForm.Designer.cs">
+      <DependentUpon>AddRecordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -63,8 +63,14 @@
     <Compile Include="SearchForm.Designer.cs">
       <DependentUpon>SearchForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddDataForm.resx">
-      <DependentUpon>AddDataForm.cs</DependentUpon>
+    <Compile Include="ViewRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRecordForm.Designer.cs">
+      <DependentUpon>ViewRecordForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddRecordForm.resx">
+      <DependentUpon>AddRecordForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -81,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="SearchForm.resx">
       <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRecordForm.resx">
+      <DependentUpon>ViewRecordForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
