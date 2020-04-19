@@ -9,6 +9,7 @@ PREVIEW:-
 
 ![](./Images/2-Phonebook-Snip.jpg)
 
+![](./Images/3-Phonebook-Snip.jpg)
 
 Add Record - :heavy_check_mark:
 
