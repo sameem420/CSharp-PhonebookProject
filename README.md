@@ -5,10 +5,11 @@ Simple phonebook application to make backup of your contacts (Fully based on CRU
 
 PREVIEW:-
 
-![](./1-Phonebook-Snip.jpg)
+![](./Images/1-Phonebook-Snip.jpg)
 
-![](./2-Phonebook-Snip.jpg)
+![](./Images/2-Phonebook-Snip.jpg)
 
+![](./Images/3-Phonebook-Snip.jpg)
 
 Add Record - :heavy_check_mark:
 
