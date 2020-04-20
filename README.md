@@ -18,6 +18,7 @@ Add Record - :heavy_check_mark:
 
 Search Record - :heavy_check_mark:
 
+View Record - :heavy_check_mark:
 
 TODO :-
 
