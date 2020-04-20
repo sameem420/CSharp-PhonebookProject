@@ -76,11 +76,12 @@
             // 
             // toolStripButton6
             // 
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
+            this.toolStripButton6.Image = global::Phonebook_Application.Properties.Resources.recordicon;
+            this.toolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(111, 36);
-            this.toolStripButton6.Text = "Display Record";
+            this.toolStripButton6.Size = new System.Drawing.Size(152, 36);
+            this.toolStripButton6.Text = "Display Record (F3)";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // toolStripButton3

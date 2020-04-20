@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\recordicon.png" />
     <None Include="Resources\min.png" />
     <None Include="Resources\minimize.png" />
     <None Include="Resources\exit.png" />
