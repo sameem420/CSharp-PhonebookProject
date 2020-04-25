@@ -19,3 +19,4 @@ C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Pho
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.pdb
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.AddRecordForm.resources
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.ViewRecordForm.resources
+C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook_Application.UpdateForm.resources

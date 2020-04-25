@@ -52,9 +52,7 @@
             this.ClientSize = new System.Drawing.Size(713, 487);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.IsMdiContainer = true;
             this.Name = "ViewRecordForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Display Record - PhoneBook";
             this.Load += new System.EventHandler(this.ViewRecordForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

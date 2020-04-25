@@ -184,9 +184,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.KeyPreview = true;
             this.Name = "AddRecordForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Record - PhoneBook";
             this.Load += new System.EventHandler(this.AddDataForm_Load);
             this.panel1.ResumeLayout(false);

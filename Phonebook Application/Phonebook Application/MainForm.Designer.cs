@@ -74,8 +74,8 @@
             this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(107, 36);
-            this.toolStripButton2.Text = "Search (F2)";
+            this.toolStripButton2.Size = new System.Drawing.Size(150, 36);
+            this.toolStripButton2.Text = "Search Record (F2)";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton6
@@ -120,6 +120,7 @@
             this.toolStripButton7.Name = "toolStripButton7";
             this.toolStripButton7.Size = new System.Drawing.Size(151, 36);
             this.toolStripButton7.Text = "Update Record (F4)";
+            this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
             // toolStripButton8
             // 

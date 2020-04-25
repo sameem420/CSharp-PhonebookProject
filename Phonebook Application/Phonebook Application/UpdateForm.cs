@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Phonebook_Application
 {
-    public partial class SearchForm : Form
+    public partial class UpdateForm : Form
     {
-        public SearchForm()
+        public UpdateForm()
         {
             InitializeComponent();
         }
@@ -54,6 +53,7 @@ namespace Phonebook_Application
                 {
                     MessageBox.Show("Record not found.", "PhoneBook Record", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                groupBox2.Enabled = true;
             }
         }
     }
