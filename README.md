@@ -20,11 +20,13 @@ Search Record - :heavy_check_mark:
 
 View Record - :heavy_check_mark:
 
+Update Record - :heavy_check_mark:
+
+Delete Record - :heavy_check_mark:
+
 TODO :-
 
-- [ ] EDIT/UPDATE - :soon:
-
-- [ ] DELETE - :soon:
+- [ ] About - :soon:
 
 and much more coming. :eyes:
 
