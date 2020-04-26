@@ -1,3 +1,2 @@
-1	test	+12151251	test@test.com	test user added.
-2	Sam	124141	sam@gmail.com	test added
-3	Naa	124141	na@na.com	egggwg
+1	sameem	123456789	sameem@mail.com	test
+2	zaeem	987654321	zaeem@mail.com	test user

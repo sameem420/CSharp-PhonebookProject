@@ -40,7 +40,6 @@ namespace Phonebook_Application
                         found = true;
                         break;
                     }
-
                 }
                 if (found)
                 {
@@ -55,6 +54,27 @@ namespace Phonebook_Application
                 }
                 groupBox2.Enabled = true;
             }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            var Id = textBox1.Text.ToString();
+            string fn = AppDomain.CurrentDomain.BaseDirectory;
+            string path = fn + @"phonebook_data.txt";
+            var logFile = File.ReadAllLines(path);
+            var logList = new List<string>(logFile);
+            string[] chars = new string[5];
+            for (int i = logList.Count - 1; i >= 0; i--)
+            {
+                if (logList[i].StartsWith(Id))
+                {
+                    string record = Id + "\t" + textBox2.Text + "\t" + textBox3.Text + "\t" + textBox4.Text + "\t" + textBox5.Text;
+                    logList.RemoveAt(i);
+                    logList.Insert(i, record);
+                }
+                MessageBox.Show("Contact Updated Sucessfully.", "PhoneBook Record", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            File.WriteAllLines(path, logList.ToArray());
         }
     }
 }

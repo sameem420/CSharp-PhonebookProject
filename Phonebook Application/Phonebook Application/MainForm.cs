@@ -47,6 +47,10 @@ namespace Phonebook_Application
             {
                 toolStripButton7_Click(sender, e);
             }
+            if (e.KeyCode == Keys.F5)
+            {
+                toolStripButton8_Click(sender, e);
+            }
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
@@ -72,6 +76,13 @@ namespace Phonebook_Application
             UpdateForm uform = new UpdateForm();
             uform.MdiParent = this;
             uform.Show();
+        }
+
+        private void toolStripButton8_Click(object sender, EventArgs e)
+        {
+            DeleteRecordForm dform = new DeleteRecordForm();
+            dform.MdiParent = this;
+            dform.Show();
         }
     }
 }
