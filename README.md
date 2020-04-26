@@ -13,6 +13,10 @@ PREVIEW:-
 
 ![](./Images/4-Phonebook-Snip.jpg)
 
+![](./Images/5-Phonebook-Snip.jpg)
+
+![](./Images/6-Phonebook-Snip.jpg)
+
 
 Add Record - :heavy_check_mark:
 
