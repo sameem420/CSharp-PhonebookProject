@@ -1,9 +1,9 @@
 # CSharp-PhonebookProject
 
-Simple phonebook application to make backup of your contacts (Fully based on CRUD Operations)
+Phonebook application to make backup of your contacts in your laptop or PC easily (Fully based on CRUD Operations)
 
 
-PREVIEW:-
+SCREENSHOTS:-
 
 ![](./Images/1-Phonebook-Snip.jpg)
 
