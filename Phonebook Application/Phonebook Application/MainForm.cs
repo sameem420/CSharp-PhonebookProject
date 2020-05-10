@@ -84,5 +84,12 @@ namespace Phonebook_Application
             dform.MdiParent = this;
             dform.Show();
         }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            AboutMe abt = new AboutMe();
+            abt.MdiParent = this;
+            abt.Show();
+        }
     }
 }
