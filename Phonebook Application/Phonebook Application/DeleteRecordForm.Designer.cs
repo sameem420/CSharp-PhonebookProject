@@ -80,6 +80,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 150);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "DeleteRecordForm";
             this.Text = "Delete Record - PhoneBook";
             this.groupBox1.ResumeLayout(false);

@@ -13,7 +13,6 @@ namespace Phonebook_Application
         public AboutMe()
         {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
         }
 
         #region Assembly Attribute Accessors

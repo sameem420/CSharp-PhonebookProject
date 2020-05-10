@@ -140,8 +140,8 @@
             this.Padding = new System.Windows.Forms.Padding(9);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About Me";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "About Dev";
             ((System.ComponentModel.ISupportInitialize)(this.github_link)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.linkedin_link)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.instagram_link)).EndInit();
