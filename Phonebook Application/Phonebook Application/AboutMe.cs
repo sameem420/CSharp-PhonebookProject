@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.Reflection;
 using System.Windows.Forms;
@@ -13,11 +14,6 @@ namespace Phonebook_Application
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
         }
 
         #region Assembly Attribute Accessors
@@ -99,5 +95,25 @@ namespace Phonebook_Application
             }
         }
         #endregion
+
+        private void facebook_link_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"https://www.facebook.com/sameem420");
+        }
+
+        private void github_link_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"https://github.com/sameem420");
+        }
+
+        private void instagram_link_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"https://www.instagram.com/sameemoye");
+        }
+
+        private void linkedin_link_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"https://www.linkedin.com/in/itssameem/");
+        }
     }
 }

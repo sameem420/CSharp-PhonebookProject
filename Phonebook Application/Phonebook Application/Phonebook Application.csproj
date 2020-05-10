@@ -142,6 +142,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\github.png" />
+    <None Include="Resources\linkedin.png" />
+    <None Include="Resources\instagram.png" />
+    <None Include="Resources\facebook.png" />
     <None Include="Resources\pk.png" />
     <None Include="Resources\deleteicon.png" />
     <None Include="Resources\editicon.png" />
