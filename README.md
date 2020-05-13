@@ -28,9 +28,11 @@ Update Record - :heavy_check_mark:
 
 Delete Record - :heavy_check_mark:
 
+About - :heavy_check_mark:
+
 TODO :-
 
-- [ ] About - :soon:
+Thinking to do something new ...
 
 and much more coming. :eyes:
 
