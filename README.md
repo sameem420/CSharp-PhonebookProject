@@ -40,7 +40,7 @@ and much more coming. :eyes:
 
 <b>License :</b>
 
-MIT License
+<b><u>MIT License</u></b>
 
 Copyright (c) 2020 Muhammad Sameem
 
