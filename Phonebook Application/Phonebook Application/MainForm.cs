@@ -91,5 +91,46 @@ namespace Phonebook_Application
             abt.MdiParent = this;
             abt.Show();
         }
+
+        public void combox_load_background()
+        {
+            for(int i =1; i<4;i++)
+            {
+                this.comboBox1.Items.Add("Image " + i.ToString());
+            }
+        }
+
+        public void background_image_loader(Int32 combo_index)
+        {
+            string fn;
+            combo_index = combo_index + 1;
+            fn = Application.StartupPath + "\\data\\images\\" + combo_index.ToString() + ".jpg";
+            this.BackgroundImage = Image.FromFile(fn);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            combox_load_background();
+        }
+
+        public void getTime()
+        {
+            this.lbl_showTime.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            getTime();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Int32 si;
+            si = this.comboBox1.SelectedIndex;
+            background_image_loader(si);
+            //----------- save the selected image index ------------------
+            Phonebook_Application.Properties.Settings.Default.selected_back_image_index = this.comboBox1.SelectedIndex;
+            Phonebook_Application.Properties.Settings.Default.Save();
+        }
     }
 }

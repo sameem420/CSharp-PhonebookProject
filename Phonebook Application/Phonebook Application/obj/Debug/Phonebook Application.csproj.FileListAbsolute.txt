@@ -21,3 +21,4 @@ C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Pho
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csproj.GenerateResource.cache
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.exe
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.pdb
+C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csprojAssemblyReference.cache
