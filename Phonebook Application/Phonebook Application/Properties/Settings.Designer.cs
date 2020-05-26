@@ -23,11 +23,15 @@ namespace Phonebook_Application.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int selected_back_image_index {
             get {
                 return ((int)(this["selected_back_image_index"]));
+            }
+            set {
+                this["selected_back_image_index"] = value;
             }
         }
     }

@@ -111,7 +111,12 @@ namespace Phonebook_Application
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            Int32 si;
+            si = Properties.Settings.Default.selected_back_image_index;
+            background_image_loader(si);
+            //-------------------------------------------------------------
             combox_load_background();
+            this.comboBox1.SelectedIndex = si;
         }
 
         public void getTime()
@@ -129,8 +134,8 @@ namespace Phonebook_Application
             si = this.comboBox1.SelectedIndex;
             background_image_loader(si);
             //----------- save the selected image index ------------------
-            Phonebook_Application.Properties.Settings.Default.selected_back_image_index = this.comboBox1.SelectedIndex;
-            Phonebook_Application.Properties.Settings.Default.Save();
+            Properties.Settings.Default.selected_back_image_index = this.comboBox1.SelectedIndex;
+            Properties.Settings.Default.Save();
         }
     }
 }
