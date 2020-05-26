@@ -142,6 +142,15 @@
     <None Include="Resources\saveicon.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="data\images\1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\images\2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\images\3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="phone.ico" />
     <None Include="Resources\github.png" />
     <None Include="Resources\linkedin.png" />
@@ -155,8 +164,6 @@
     <None Include="Resources\minimize.png" />
     <None Include="Resources\exit.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="data\images\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

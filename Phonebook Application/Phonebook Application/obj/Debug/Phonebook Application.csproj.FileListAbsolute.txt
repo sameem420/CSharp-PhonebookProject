@@ -23,3 +23,6 @@ C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Pho
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.pdb
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\obj\Debug\Phonebook Application.csprojAssemblyReference.cache
 C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\bin\Debug\Phonebook Application.exe.config
+C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\bin\Debug\data\images\1.jpg
+C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\bin\Debug\data\images\2.jpg
+C:\Users\root\Documents\GitHub\CSharp-PhonebookProject\Phonebook Application\Phonebook Application\bin\Debug\data\images\3.jpg
