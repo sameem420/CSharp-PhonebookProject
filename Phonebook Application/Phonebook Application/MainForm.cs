@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Text;
 using System.Windows.Forms;
 
@@ -96,7 +97,7 @@ namespace Phonebook_Application
         {
             for(int i =1; i<4;i++)
             {
-                this.comboBox1.Items.Add("Image " + i.ToString());
+                this.comboBox1.Items.Add("Background " + i.ToString());
             }
         }
 
@@ -121,7 +122,7 @@ namespace Phonebook_Application
 
         public void getTime()
         {
-            this.lbl_showTime.Text = DateTime.Now.ToString("HH:mm:ss");
+            this.lbl_showTime.Text = DateTime.Now.ToString("HH:mm:ss tt", CultureInfo.InvariantCulture);
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
