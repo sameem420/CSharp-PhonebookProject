@@ -17,6 +17,7 @@ SCREENSHOTS:-
 
 ![](./Images/6-Phonebook-Snip.jpg)
 
+![](./Images/7-Phonebook-Snip.jpg)
 
 Add Record - :heavy_check_mark:
 
